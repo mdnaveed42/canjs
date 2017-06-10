@@ -1,5 +1,5 @@
 @page guides/contributing/evangelism Evangelism
-@parent guides/contribute
+@parent guides/contribute 14
 
 @description Learn about resources that can help you spread the word about CanJS.
 

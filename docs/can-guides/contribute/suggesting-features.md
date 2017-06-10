@@ -1,30 +1,35 @@
-@page guides/contributing/bug-report Bug Report
-@parent guides/contribute
+@page guides/contributing/feature-suggestion Suggesting Features
+@parent guides/contribute 4
 
-@description Learn how to submit a bug report.
+@description Learn how to suggest a feature.
 
 @body
 
 ## Overview
 
-CanJS uses [GitHub Issues](https://github.com/canjs/canjs/issues/new) to track bugs. However,
-CanJS is made up of many individual GitHub repositories. Ideally, bugs are created within the
-repository whose code is causing the issue.  For example, issues with
+CanJS uses [GitHub Issues](https://github.com/canjs/canjs/issues/new) to track feature requests. However,
+CanJS is made up of many individual GitHub repositories. Ideally, features are created within the
+repository whose code needs to be modified.  For example, features with
 [can-define] can be created at [canjs/can-define/issues/new](https://github.com/canjs/can-define/issues/new).
 
-If you do not know which repository your issue belongs to, that’s totally ok!  Please
+If you do not know which repository your feature belongs to, that’s totally ok!  Please
 create your issue in the main
 [canjs/canjs issues page](https://github.com/canjs/canjs/issues/new).  The core team will
 move the issue to the correct repository if necessary.
 
-When creating an issue, it’s very helpful to include:
+When creating an feature issue, it’s very helpful to include:
 
- - Small examples using tools like JS&nbsp;Bin. You can clone the following [CanJS bin](https://jsbin.com/losoceranu/1/edit?html,js,output) that includes everything in CanJS. Make
-   sure it’s pointing at the same version of CanJS you are using.  
- - Breaking unit tests (optional). See [guides/contributing/code].
- - Proposed fix solutions (optional)
+ - Examples of what using the feature will look like.
+ - Benefits and drawbacks of the feature.
+ - Why the feature is important.
+ - Any implementation details around the feature.
 
-Also, please search for previous tickets.  If there’s something similar, add to that, or
+Here’s some example well written feature requests:
+
+ - [Make events fire asynchronously and dispatched during request animation frame or setImmediate](https://github.com/canjs/can-event/issues/11)
+ - [Modify key -> argument behavior in stache](https://github.com/canjs/canjs/issues/1699)
+
+Also, please search for previous feature requests.  If there’s something similar, add to that, or
 give it a `+1`.
 
 Finally, if there are any questions, reach out to

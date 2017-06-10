@@ -1,5 +1,5 @@
 @page guides/contributing/documentation Documentation
-@parent guides/contribute
+@parent guides/contribute 8
 
 @description Learn how to improve CanJS’s site and documentation.
 
